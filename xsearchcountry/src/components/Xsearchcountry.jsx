@@ -58,7 +58,7 @@ const Xsearchcountry = () => {
                 src={data.flags.png} 
                 alt={data.cca3}
                 />
-                <h3>{data.name.common}</h3> 
+                <h2><span>{data.name.common}</span></h2> 
                 </div>
                 ))}
          </div>
