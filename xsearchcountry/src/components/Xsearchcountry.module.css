@@ -1,0 +1,48 @@
+.searchContainer{
+    display: flex;
+     flex-direction: column;
+     align-items: center
+    }
+    .searchBox{
+    width: 50%;
+    height: 34px;
+    margin-top: 50px;
+    /* margin-left: 80px; */
+    /* margin-right: 100px; */
+     border-radius:8px;
+     font-size: 20px;
+     font-weight: 400;
+     padding: 10px;
+    }
+    .container{
+        width: 100%;
+        /* height: 180px; */
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .countryCard{
+        width: 10%;
+        height:180px;
+        border: 1px solid gray;
+        border-radius: 8px;
+        padding: 10px;
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       align-items: center;
+       text-align: center;
+       font-weight: 600;
+       font-size: 20px;
+       overflow: hidden;
+        
+      }
+    
+    .imgSrc{
+        width: 100px;
+        height: 100px;
+        padding: 5px;
+     }
