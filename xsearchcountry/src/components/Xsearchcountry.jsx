@@ -54,7 +54,7 @@ const Xsearchcountry = () => {
         {filtersearchquery.map(data =>(
         // console.log('filtersearchquery',filtersearchquery)
         //  console.log('county', styles.countryCard)
-          <div className={styles.countryCard} key={data.cca3}>
+          <div className= "countryCard" key={data.cca3}>
             <img 
                 className={styles.imgSrc} 
                 src={data.flags.png} 
