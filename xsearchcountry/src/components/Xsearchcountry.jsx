@@ -50,10 +50,8 @@ const Xsearchcountry = () => {
       onChange={(e) => setCountrySearch(e.target.value)}
       />
       <div className={styles.container}>
-      {console.log('county', styles.countryCard)}
+      {console.log('country', styles.countryCard)}
         {filtersearchquery.map(data =>(
-        // console.log('filtersearchquery',filtersearchquery)
-        //  console.log('county', styles.countryCard)
           <div className= "countryCard" key={data.cca3}>
             <img 
                 className={styles.imgSrc} 
